@@ -1,0 +1,12 @@
+[package]
+name = "SoloShuffleDiscordNotifier"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+reqwest = { version = "0.12.8", features = ["blocking", "json"] }
+notify = "6.1.1"
+serde_json = "1.0.128"  # For monitoring file changes
+config = "0.14.0"
+serde_yaml = "0.9.34"
